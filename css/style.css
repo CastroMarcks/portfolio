@@ -13,9 +13,9 @@
   --bg-card-hover: #222228;
   --text-primary: #dcdce0;
   --text-secondary: #7a7a8c;
-  --accent: #94a3b8;
-  --accent-light: #b0bfd0;
-  --gradient: linear-gradient(135deg, #94a3b8, #cbd5e1);
+  --accent: #6b9edd;
+  --accent-light: #8bb4e8;
+  --gradient: linear-gradient(135deg, #5a8fcf, #8bb4e8);
   --glass: rgba(20, 20, 24, 0.8);
   --border: rgba(255, 255, 255, 0.07);
   --radius: 10px;
@@ -181,7 +181,7 @@ img { max-width: 100%; display: block; }
   color: #fff;
 }
 
-.btn-primary:hover { transform: translateY(-2px); box-shadow: 0 8px 30px rgba(148,163,184,0.15); }
+.btn-primary:hover { transform: translateY(-2px); box-shadow: 0 8px 30px rgba(107,158,221,0.15); }
 
 .btn-outline {
   background: transparent;
@@ -315,7 +315,7 @@ section { padding: 100px 0; }
   transition: var(--transition);
 }
 
-.timeline-card:hover { border-color: rgba(148,163,184,0.15); transform: translateY(-3px); }
+.timeline-card:hover { border-color: rgba(107,158,221,0.15); transform: translateY(-3px); }
 
 .timeline-date {
   font-size: 0.8rem;
@@ -350,7 +350,7 @@ section { padding: 100px 0; }
   transition: var(--transition);
 }
 
-.skill-category:hover { border-color: rgba(148,163,184,0.15); transform: translateY(-3px); }
+.skill-category:hover { border-color: rgba(107,158,221,0.15); transform: translateY(-3px); }
 
 .skill-category h3 {
   font-size: 1rem;
@@ -430,7 +430,7 @@ section { padding: 100px 0; }
   transition: var(--transition);
 }
 
-.project-card:hover { border-color: rgba(148,163,184,0.15); transform: translateY(-5px); }
+.project-card:hover { border-color: rgba(107,158,221,0.15); transform: translateY(-5px); }
 
 .project-img {
   position: relative;
@@ -488,7 +488,7 @@ section { padding: 100px 0; }
   font-size: 0.75rem;
   padding: 4px 12px;
   border-radius: 50px;
-  background: rgba(148,163,184,0.08);
+  background: rgba(107,158,221,0.06);
   color: var(--accent);
   font-weight: 500;
 }
@@ -508,7 +508,7 @@ section { padding: 100px 0; }
   transition: var(--transition);
 }
 
-.video-card:hover { border-color: rgba(148,163,184,0.15); transform: translateY(-3px); }
+.video-card:hover { border-color: rgba(107,158,221,0.15); transform: translateY(-3px); }
 
 .video-card video {
   width: 100%;
@@ -534,7 +534,7 @@ section { padding: 100px 0; }
   transition: var(--transition);
 }
 
-.repo-card:hover { border-color: rgba(148,163,184,0.15); transform: translateY(-3px); }
+.repo-card:hover { border-color: rgba(107,158,221,0.15); transform: translateY(-3px); }
 
 .repo-card h3 {
   font-size: 1rem;
@@ -574,7 +574,7 @@ section { padding: 100px 0; }
   transition: var(--transition);
 }
 
-.edu-card:hover { border-color: rgba(148,163,184,0.15); transform: translateY(-3px); }
+.edu-card:hover { border-color: rgba(107,158,221,0.15); transform: translateY(-3px); }
 
 .edu-card .institution {
   font-size: 0.85rem;
